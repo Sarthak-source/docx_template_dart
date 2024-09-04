@@ -2,11 +2,15 @@ name: docx_template
 description: A Docx template engine.
 version: 0.4.0
 homepage: https://github.com/PavelS0/docx_template_dart
+publish_to: none
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  archive: ^3.3.0
+  archive:
+    git:
+      url: https://github.com/Sarthak-source/archive.git
+      ref: main
   xml: ^6.4.2
   collection: ^1.16.0
   path: ^1.8.2
